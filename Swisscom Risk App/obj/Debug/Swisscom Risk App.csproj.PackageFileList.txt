@@ -1,0 +1,1 @@
+bin\Debug\Swisscom_Risk_App.wsp

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="00d22485-5455-4cd1-ae38-1c1dbdc1c175" solutionId="00d22485-5455-4cd1-ae38-1c1dbdc1c175" resetWebServer="false" title="Swisscom Risk App" sharePointProductVersion="16.0" name="Swisscom_Risk_App" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c6eb6507-6e10-46e9-97e9-e16a2f6bebfc" />
+  </features>
+</package>

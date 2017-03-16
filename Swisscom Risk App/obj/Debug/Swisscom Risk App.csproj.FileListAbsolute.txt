@@ -1,0 +1,4 @@
+C:\Users\Jonas\Source\Repos\SwisscomRiskApp\Swisscom Risk App\Swisscom Risk App\bin\Debug\Swisscom Risk App.pdb
+C:\Users\Jonas\Source\Repos\SwisscomRiskApp\Swisscom Risk App\Swisscom Risk App\obj\Debug\Swisscom Risk App.dll
+C:\Users\Jonas\Source\Repos\SwisscomRiskApp\Swisscom Risk App\Swisscom Risk App\obj\Debug\Swisscom Risk App.pdb
+C:\Users\Jonas\Source\Repos\SwisscomRiskApp\Swisscom Risk App\Swisscom Risk App\obj\Debug\Swisscom Risk App.csprojResolveAssemblyReference.cache

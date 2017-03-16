@@ -1,0 +1,88 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#s4-titlerow {
+    display: none !important;
+}
+
+#contentBox {
+    min-width: 0 !important;
+}
+
+#DeltaPlaceHolderMain {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.listInfos {
+    margin: 25px 0;
+}
+
+    .listInfos h2 {
+        margin-bottom: 5px;
+    }
+
+.listInfoWrapper, .legendWrapper {
+    height: 100px;
+    width: 32.8%;
+    display: inline-block;
+}
+
+.listStateIndicator {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #7cf;
+}
+
+.listStateUnavailable {
+    background-color: #dd1122;
+}
+
+.listStateInProgress {
+    background-color: #ff9000;
+}
+
+.listStateAvailable {
+    background-color: #32cd32;
+}
+
+#legendContainer .listStateIndicator {
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+#legendContainer p {
+    margin-bottom: 0;
+}
+
+
+#errorLogContainer {
+    display: none;
+}
+
+#errorLogMsg span {
+    color: red;
+}
+
+@media screen and (max-width: 991px) and (min-width: 688px) {
+    #DeltaPlaceHolderMain {
+        width: 80%;
+    }
+    .listInfoWrapper,
+    .legendWrapper {
+        width: 49.6%;
+    }
+}
+
+@media screen and (max-width: 687px) and (min-width: 210px) {
+    #DeltaPlaceHolderMain,.listInfoWrapper,
+    .legendWrapper {
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="SwisscomRiskApp"
+     ProductID="{d6191380-9d63-4ac9-8b8e-19f65a55d6ac}"
+     Version="2.0.1.1"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>Swisscom Risk App</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="Manage" />
+  </AppPermissionRequests>
+</App>

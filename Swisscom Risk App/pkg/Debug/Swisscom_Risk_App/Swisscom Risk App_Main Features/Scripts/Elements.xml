@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor\promise-polyfill.js" Url="Scripts/vendor/promise-polyfill.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\listConfigs.js" Url="Scripts/listConfigs.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor\jquery-2.2.3.min.js" Url="Scripts/vendor/jquery-2.2.3.min.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
