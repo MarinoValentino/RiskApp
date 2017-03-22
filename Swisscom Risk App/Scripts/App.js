@@ -183,7 +183,10 @@ riskapp.listHandling = (function () {
             var requestUrl = _spPageContextInfo.siteAbsoluteUrl + "/_api/SP.AppContextSite(@target)/web/Lists/getbytitle('" + listConfig.listName + "')/views('" + viewId + "')/viewfields/addviewfield('" + fieldConfig.InternalName + "')?@target='" + riskapp.utils.getSpHostUrl() + "'";
             var callConfig = {
                 url: requestUrl,
-                method: "POST"
+                method: "POST",
+                headers: {
+                    "X-HTTP-Method": "MERGE"
+                }
             }
             promise = promise.then(_executeSpRequest(callConfig), _handleError);
         });
